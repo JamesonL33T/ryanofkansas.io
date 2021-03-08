@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Just an IT Guy</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <style>
+      #myDIV {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: left;
+        background-color: #e4e8ed;
+        margin-top: 20px;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();"></div>Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();"></div>About</a></li>
+        <li><a href="#work" onclick="toggleMenu();"></div>Work History</a></li>
+        <li><a href="#education" onclick="toggleMenu();"></div>Education</a></li>
+        <li><a href="#certs" onclick="toggleMenu();"></div>Certifications</a></li>
+        <li><a href="#contact" onclick="toggleMenu();"></div>Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="home">
+      <div class="textBx" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px">
+        <h2>Ryan Hall</h2>
+        <h3>VMware Engineer / Web Development Newbie</h3>
+        <a href="./rsume.pdf" download="Resume">
+          <button class="btn"><i class="fa fa-download"></i> Resume</button>
+        </a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="heading" data-0-bottom="opacity:1;left:0px;" data-200-bottom="opacity:0;left:300px;">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50" data-0-bottom="opacity:1;left:0px;" data-200-bottom="opacity:0;left:300px;">
+          <h3>I am a VMware Engineer</h3>
+          <p>
+            I have over 8 years of IT experience and I do my best to stay current in all things IT related. I am currently working as a VMware Administrator under contract with the USDA. I have two VCP certifications from VMware, I recently became a certified AWS Solutions Architect Associate, ITIL v4 Foundations certification and I have an active Public Trust clearance. I have worked in large, medium, and small environments so I am familiar with every kind of workload.I am currently learning how to become a full stack engineer, This page is my first attempt as a Web Developer.<br><br>
+            References are available upon requests. <br /><br />
+          </p>
+        </div>
+        <div class="w50" data-0-bottom="opacity:1;right:0px;" data-200-bottom="opacity:0;right:300px;">
+        <img src="icons/other.jpg" class="img" width="400" height="500">
+      </div>
+      </section>
+<!-- services = work history -->
+      <section class="work" id="work"> 
+        <div class="heading" data-0-bottom="opacity:1;left:0px;" data-200-bottom="opacity:0;left:300px;">
+          <h2>Work History</h2>
+          <h4>8+ Years of IT Experience</h4>
+        </div>
+        <div class="item" data-400-top="opacity:1;left:0px;" data-500-top="opacity:0;right:300px;">
+          <div class="logo">
+            <div>
+              <img src="icons/criterion.PNG" float="left" width="150" height="65"> 
+            </div>
+          </div>
+          <div class="details">
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">
+              
+              <div>  
+                <h2>Criterion Systems</h2>
+                <h4>December 2019 - Present</h4>
+                <p>Contractor for USDA responsible for System Lifecycle management for all equipment, including planning, implementation, maintenance, upgrades, consolidation, and decommissioning of enterprise hardware, and software. Responsible for the maintenance of 200+ ESXi hosts across multiple vCenters. I helped upgrade vCenters from vCenter 6.5 to 6.7. Have upgraded hosts from ESXi 6.5 to 6.7. Performed multiple vSphere security patches. Updated Firmware and drivers on Cisco UCS and Cisco Fabric Interconnects. Help maintain VMware Site Recovery Manager (SRM) for disaster recovery. </p>
+              </div>  
+            </div>  
+          </div>    
+        </div>
+        <div class="item" data-400-top="opacity:1;right:0px;" data-500-top="opacity:0;left:300px;">
+          <div class="logo">
+            <div>
+              <img src="icons/cerner.PNG" float="left" width="100" height="100">
+            </div>
+          </div>
+          <div class="details">  
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">
+              <div>    
+                <h2>Cerner Corporation</h2>
+                <h4>May 2018 - December 2019</h4>
+                <p>Performed daily operations tasks across storage, network, and systems to verify system integrity and availability. Implement monitoring for virtual infrastructure and servers, and respond to alarms in a timely manner, preventing client impact and performance degradation. In this role I helped Cerner to scale and transition the team. Deployed vCenter, PSC, VUM, vROM, NSX, VSAN, and ESXi 6.5/6.7 components and infrastructure. Perform administrator tasks on over 2000 ESXi hosts. Completed assigned incident management tasks, Deploy, setup, and maintain testing environments, Provided Tier III and other support per service request. Performed updates and maintenance on HPE servers.</p>
+              </div>
+            </div>  
+          </div>
+        </div>  
+        <div class="item" data-400-top="opacity:1;left:0px;" data-500-top="opacity:0;right:300px;">
+          <div class="logo">
+            <div>
+              <img src="icons/cerner.PNG" float="left" width="100" height="100">
+            </div>
+          </div>
+          <div class="details">
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">    
+              <div>
+                <h2>Cerner Corporation</h2>
+                <h4>July 2015 - May 2018</h4>
+                <p>Primary point of contact for the client and lead troubleshooting activities and resolving system interface issues on the HIE platform for data connections. Completed assigned incident management tasks, setup, maintain environments, provide Tier III and other support per service request. Performed various application installations and maintenance on backend and frontend systems (Windows/Linux).</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="item" data-400-top="opacity:1;right:0px;" data-500-top="opacity:0;left:300px;">
+          <div class="logo">
+            <div>
+              
+              <img src="icons/yrcw.PNG" float="left" width="140" height="80">
+            </div>
+          </div>
+          <div class="details">
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">
+              <div>  
+                <h2>YRC Worldwide</h2>
+                <h4>June 2013 - June 2015</h4>
+                <p>Windows server administrator responsible for VMware Administration. Worked with DNS, DHCP, WSUS, the maintenance of VMware ESXi hosts, physical servers and virtual machines. Performed driver and firmware updates and server maintenance on HPE and Dell servers.</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="item" data-400-top="opacity:1;left:0px;" data-500-top="opacity:0;right:300px;">
+          <div class="logo">
+            <div> 
+                          
+              <img src="icons/Tenney.PNG" float="left" width="140" height="80">
+            </div>
+          </div>
+          <div class="details">
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">
+              <div>   
+                <h2>Tenney Pediatrics</h2>
+                <h4>October 2012 - December 2014</h4>
+                <p>Part Time Windows Small Business Server and Network Administrator responsible for installation, maintenance, troubleshooting and support of Windows based desktop/server related network systems. Monitored and maintained Active Directory, DNS, DHCP, SQL Server and domains. Performed and managed backups.</p>
+              </div> 
+            </div> 
+          </div>
+        </div>  
+        <div class="item" data-400-top="opacity:1;right:0px;" data-500-top="opacity:0;left:300px;">
+          <div class="logo">
+            <div>  
+              
+              <img src="icons/DLA.PNG" float="left" width="100" height="100">
+            </div>
+          </div>
+          <div class="details">
+            <div style="position: relative; left: 0px; bottom: 40px; top: 1px">
+              <div>    
+                <h2>Defense Logistics Agency San Joaquin</h2>
+                <h4>March 2008 - March 2011</h4>
+                <p>Received, managed, stowed, inventoried, packed and shipped various materials around the world for various military and government agencies.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="education">
+        <div class="heading" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right;:200px;">
+          <h2>Education</h2>
+        </div>
+        <div class="content" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right;:200px;">
+          <div class="educationBx">
+            <img src="icons/WGU.PNG" width="350" height="120">
+            <h2>Western Governors University</h2>
+            <h4>MBA, IT Management</h4>
+          </div>
+          <div class="educationBx">
+            <img src="icons/ITT.PNG" width="350" height="120">
+            <h2>ITT Technical Institute</h2>
+            <h4>BS Information Systems Security</h4>
+        </div>
+      </section>
+      <section class="certs" id="certs">
+        <div class="heading" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right;:200px;">
+          <h2>Certications</h2>
+        </div>
+        <div class="content" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:200px;">
+          <div class="certsBx">
+            <a href="https://www.vmware.com/education-services/certification/vcp-dcv.html" target="_blank" style="width: 100%;">
+            <img class="image__img" src="icons/vcpdc.PNG" alt="VCP-DCV 2019" width="240" height="240">
+            </a>
+            <div class="image__overlay">
+              <div class="image__title"></div>
+            </div>  
+          </div>
+          <div class="certsBx">
+            <a href="https://www.vmware.com/education-services/certification/vcp-dtm.html" target="_blank" style="width: 100%;">
+            <img src="icons/vcpdt.PNG" alt="VCP-DTM" width="240" height="240">
+            </a>
+            <div class="image__overlay">
+              <div class="image__title"></div>
+            </div>  
+          </div>
+          <div class="certsBx">  
+            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" style="width: 100%;">
+            <img src="icons/arch.png" width="250" height="250">
+            </a>
+          </div>
+          <div class="certsBx">  
+            <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank" style="width: 100%;">
+            <img src="icons/prac.PNG" width="250" height="250">
+            </a>
+          </div>
+          <div class="certsBx">
+            <a href="https://www.axelos.com/certifications/itil-certifications/itil-foundation" target="_blank" style="width:100%"> 
+            <img src="icons/itil.PNG" width="230" height="250">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="heading" data-100-bottom="opacity:1;right:0px;" data-200-bottom="opacity:0;right:300px;">
+          <h2>Contact Me</h2>
+        </div>
+        
+        <div class="content" data-100-bottom="opacity:1;left:0px;" data-300-bottom="opacity:0;left:300px;">
+          <div class="contactInfo">
+            <h3>Contact Info</h3>
+            <div class="contactInfoBx">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa fa-envelope-o"></i>
+                </div>
+                  <div class="text">
+                    <h3>Email</h3>
+                    <p>Ryan.Hall0203@gmail.com</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                    <div class="text">
+                      <h3>Phone</h3>
+                      <p>209-740-3903</p>
+                    </div>
+                </div>    
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-users"></i>
+                  </div>
+                    <div class="text">
+                        <h3>Social Media</h3>
+                        <a href="https://www.linkedin.com/in/ryan-hall-43b50542/" class="In" target="_blank" style="width: 100%;">
+                          <img src="icons/linkedin.png" width="30" height="30">
+                        </a>
+                      </div>  
+                    </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+      <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('.menu');
+          menuToggle.classList.toggle('active')
+          menu.classList.toggle('active')
+        }
+      </script>
+      <script src="skrollr.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous">
+      </script>
+      <script src="app.js"></script>
+      <script type="text/javascript">
+        var s = skrollr.init();
+        if (s.isMobile()) {
+          s.destroy();
+}
+      </script>
+      
+  </body>
+</html>
